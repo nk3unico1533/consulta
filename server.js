@@ -30,7 +30,7 @@ app.get("/api/proxy", async (req, res) => {
   }
 
   const apiMap = {
-    full: `https://apis-brasil.shop/apis/apiserafull2025.php?cpf=${valor}`,
+    full: `https://apis-brasil.shop/apis/apiserasacpf2025.php?cpf=${valor}`,
     basica: `https://apis-brasil.shop/apis/apiserabasic2025.php?cpf=${valor}`,
     nome: `https://apis-brasil.shop/apis/apiserasanome2025.php?nome=${valor}`
   };
