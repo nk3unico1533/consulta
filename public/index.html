@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Aurora Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌌 Dark Aurora</h1>
+
+    <div class="search-box">
+      <input type="text" id="valor" placeholder="Digite CPF ou Nome">
+      <select id="tipo">
+        <option value="basica">🔍 Consulta Básica</option>
+        <option value="full">💾 Consulta Full</option>
+        <option value="nome">🧑 Consulta por Nome</option>
+      </select>
+      <button onclick="consultar()">Consultar</button>
+    </div>
+
+    <div id="resultado" class="resultado">🕒 Aguardando consulta...</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
